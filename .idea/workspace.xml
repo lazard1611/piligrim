@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f64d96b-95d3-43e3-810c-d20be23b133a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignor" afterDir="false" />
+    <list default="true" id="2f64d96b-95d3-43e3-810c-d20be23b133a" name="Default Changelist" comment="Grid flax">
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partfolio/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partfolio/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partfolio/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partfolio/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partfolio/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partfolio/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +26,16 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qWwvrjJBUxmShZ7DagUqEhQkCz" />
@@ -60,21 +75,40 @@
       <option name="presentableId" value="Default" />
       <updated>1617208887982</updated>
       <workItem from="1617208889044" duration="23533000" />
-      <workItem from="1617279467334" duration="6719000" />
+      <workItem from="1617279467334" duration="26150000" />
+      <workItem from="1617366808846" duration="14123000" />
+      <workItem from="1617385687588" duration="2239000" />
+      <workItem from="1617445885668" duration="3721000" />
     </task>
+    <task id="LOCAL-00001" summary="Grid flax">
+      <created>1617299102487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617299102487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Grid flax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid flax" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617298828947">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
     <state x="583" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.856@0.0.1600.856" timestamp="1617298828947" />
-    <state x="584" y="175" key="FileChooserDialogImpl" timestamp="1617298614552">
+    <state x="438" y="2" key="CommitChangelistDialog2" timestamp="1617308021917">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
-    <state x="584" y="175" key="FileChooserDialogImpl/0.0.1600.856@0.0.1600.856" timestamp="1617298614552" />
+    <state x="438" y="2" key="CommitChangelistDialog2/0.0.1600.856@0.0.1600.856" timestamp="1617308021917" />
+    <state x="584" y="175" key="FileChooserDialogImpl" timestamp="1617454901734">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="584" y="175" key="FileChooserDialogImpl/0.0.1600.856@0.0.1600.856" timestamp="1617454901734" />
   </component>
 </project>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -10,24 +11,30 @@
 
 <body>
 
-    <section class="section">
-
     <header>
 
-            <div class="logo">
-                <img class="logo__svg" src="images/logo.svg">
-            </div>
-            <div class="header__inner">
-                <button class="connection">связаться</button>
-                <div class="burger">
-                    <span class="burger__menu"></span>
+        <section class="section">
+            <div class="header">
+
+                <a href="/" class="logo">
+                    <img class="logo__svg" src="images/logo.svg">
+                </a>
+                <div class="header__inner">
+                    <a href="#" class="connection">связаться</a>
+                    <div class="burger">
+                        <span class="burger__menu"></span>
+                    </div>
                 </div>
+
             </div>
+        </section>
 
     </header>
 
 
 <!-- Title   -->
+
+    <section class="section">
 
         <div class="title">
             <h1 class="title__bolt">Стоимость разработки</h1>
@@ -86,9 +93,19 @@
             </div> <!---/service--->
 <!-- Graph-->
              <div class="graph">
-                 <div class="pie">
-                     <div class="day"></div>
-                     <div class="price"></div>
+
+                 <div class="reset">Сбросить</div>
+
+                 <div class="pie">40%
+
+                     <div class="pie__content price">1 800 $
+                         <span>Примерная стоимость</span>
+                     </div>
+
+                     <div class="pie__content day">5 дней
+                         <span>Примерные сроки</span>
+                     </div>
+
                  </div>
 
     <!--Стоймость услуг-->
@@ -154,7 +171,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="work__img">
                 <img class="work__logo" src="images/logo.png">
             </div>
         </div>
@@ -162,8 +179,9 @@
         <h1 class="title__bolt">Этапы работы</h1>
 
         <div class="stages">
-<!--   Этапы работы блок 1 -->
+<!--   Этапы работы блок 1-->
             <div class="stages__inner">
+
                 <div class="stages__numb">1</div>
                 <div class="stages__item">
 
@@ -358,49 +376,48 @@
 
 <!--    Партфолио -->
 
-    <section class="partfolio">
-
+    <section class="portfolio">
         <span>Портфолио</span>
 
-        <div class="partfolio__title">
+        <div class="portfolio__title">
             <h1>Мы создаем </h1>
             <h1>уникальность </h1>
         </div>
 
-        <nav class="partfolio__menu">
+        <nav class="portfolio__menu">
             <ul>
-                <li><a class="partfolio__menu_item partfolio__menu_item--active">Все проекты</a></li>
-                <li><a class="partfolio__menu_item">Веб</a></li>
-                <li><a class="partfolio__menu_item">ПРиложения</a></li>
-                <li><a class="partfolio__menu_item">Брендинг</a></li>
-                <li><a class="partfolio__menu_item">Продвижение</a></li>
+                <li><a class="portfolio__menu_item portfolio__menu_item--active">Все проекты</a></li>
+                <li><a class="portfolio__menu_item">Веб</a></li>
+                <li><a class="portfolio__menu_item">ПРиложения</a></li>
+                <li><a class="portfolio__menu_item">Брендинг</a></li>
+                <li><a class="portfolio__menu_item">Продвижение</a></li>
             </ul>
         </nav>
 
-        <div class="partfolio__conteiner">
+        <div class="portfolio__conteiner">
 
-            <div class="partfolio__pic">
-                <img src="images/partfolio/1.png">
+            <div class="portfolio__pic">
+                <img class="portfolio__img" src="images/portfolio/1.png">
             </div>
 
-            <div class="partfolio__pic">
-                <img src="images/partfolio/2.png">
+            <div class="portfolio__pic">
+                <img class="portfolio__img" src="images/portfolio/2.png">
             </div>
 
-            <div class="partfolio__pic">
-                <img src="images/partfolio/3.png">
+            <div class="portfolio__pic">
+                <img class="portfolio__img" src="images/portfolio/3.png">
             </div>
 
-            <div class="partfolio__pic">
-                <img src="images/partfolio/4.png">
+            <div class="portfolio__pic">
+                <img class="portfolio__img" src="images/portfolio/4.png">
             </div>
 
-            <div class="partfolio__pic">
-                <img src="images/partfolio/5.png">
+            <div class="portfolio__pic">
+                <img class="portfolio__img" src="images/portfolio/5.png">
             </div>
 
-            <div class="partfolio__pic">
-                <img src="images/partfolio/6.png">
+            <div class="portfolio__pic">
+                <img class="portfolio__img"  src="images/portfolio/6.png">
             </div>
 
         </div>
@@ -411,35 +428,109 @@
 
     <footer>
 
-        <section class="partfolio">
+        <section class="portfolio">
             <div class="footer__container">
 
                 <div class="footer__inner">
-                    <div class="partfolio__title">
+                    <div class="portfolio__title">
                         <h1>Давайте работать </h1>
                         <h1>вместе! </h1>
                     </div>
-                    <div>
+                    <div class="footer__contact">
                         Оставьте свои контакты и мы вам перезвоним в ближайшее время
                     </div>
                 </div>
 
-                <div class="footer__inner">
+                <form action="#" method="get" class="footer__inner">
 
                     <div class="input__item">
-                        <input type="text" class="input__name">
+                        <input placeholder="Как вас зовут?" name="username" type="text" class="input__name">
                     </div>
 
-                    <div class="input__item">
-                        <input type="text" class="input__name">
+                    <div class="input__item ">
+                        <input class="input--numb" placeholder="Телефон" name="tel" type="tel" class="input__name">
                     </div>
 
                     <butten class="send">Отправить</butten>
-                </div>
+                </form>
 
             </div>
         </section>
     </footer>
+
+<!--    Подключение скрипта -->
+
+<script src="js/script.js"></script>
+
+<!--    Тимчасова діч . Замість цифр PHP код для вордпреса-->
+
+    <script>
+        //        Тип сайта "Сайт визитка"
+
+        var servise_visit1 =  1000;
+        var design_individ1 = 100;
+        var design_unic1_ = 120
+        var design_ready1 = 130;
+        var verstca1 = 200;
+        var cms_opencart1 310;
+        var cms_wordp1 = 320;
+        var cms_individ1 = 330;
+        var cms_none1 = 340;
+        var cms_add1 = 350;
+        var day_service__item1 = 15;
+
+        //        Тип сайта "Landing Page"
+        var servise_visi2 =  1000;
+        var design_individ2 = 100;
+        var design_unic2 = 120
+        var design_ready2 = 130;
+        var verstca2 = 200;
+        var cms_opencart2 310;
+        var cms_wordp2 = 320;
+        var cms_individ2 = 330;
+        var cms_none2 = 340;
+        var cms_add2 = 350;
+        var day_service__item2 = 15;
+
+        //        Тип сайта "Корпоративный сайт"
+        var servise_visi3 =  1000;
+        var design_individ3 = 100;
+        var design_unic3 = 120
+        var design_ready3 = 130;
+        var verstca3 = 200;
+        var cms_opencart3 = 310;
+        var cms_wordp3 = 320;
+        var cms_individ3 = 330;
+        var cms_none3 = 340;
+        var cms_add3 = 350;
+        var day_service__item3 = 15;
+
+        //        Тип сайта "Сайт-каталог"
+        var servise_visit4 =  1000;
+        var design_individ4 = 100;
+        var design_unic4 = 120
+        var design_ready4 = 130;
+        var verstca4 = 200;
+        var cms_opencart4 = 310;
+        var cms_wordp4 = 320;
+        var cms_individ4 = 330;
+        var cms_none4 = 340;
+        var cms_add4 = 350;
+        var day_service__item4 = 15;
+
+        //        Тип сайта "Интернет магазин"
+        var servise_visit5 =  1000;
+        var design_individ5 = 100;
+        var design_unic5 = 120
+        var design_ready5 = 130;
+        var verstca5 = 200;
+        var cms_opencart5 = 310;
+        var cms_wordp5 = 320;
+        var cms_individ5 = 330;
+        var cms_none5 = 340;
+        var cms_add5 = 350;
+        var day_service__item5 = 15;
+    </script>
 
 </body>
 </html>
